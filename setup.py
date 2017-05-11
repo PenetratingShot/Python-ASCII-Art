@@ -1,11 +1,11 @@
 from setuptools import setup
 
-setup(name='more-ascii-art',
+setup(name='more_ascii_art',
       version='0.1',
       description='Cool ASCII art with python',
-      url='http://github.com/PenetratingShot',
+      url='http://github.com/PenetratingShot/Python-ASCII-Art',
       author='Shreyas Lad and Talon Bragg',
       author_email='slad0716@gmail.com',
       license='MIT',
-      packages=['more-ascii-art'],
+      packages=['more_ascii_art'],
       zip_safe=False)
