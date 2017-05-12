@@ -1,6 +1,12 @@
-# cat image in ascii art
-def cat():
-    print(" _                   ")
-    print("( \                  ")
-    print(" ) )                 ")
-    print("( (                  ")
+def help():
+    print("     Welcome to more_ascii_art help!      ")
+    print("Usage: ")
+    print("       1. Build the library with $ pip install -e .")
+    print("       2. Use the python shell to $ import more_ascii_art")
+    print("       3. Type in print and then the build name and then the function you wish to execute")
+    print("            Like this: $ print more_ascii_art.help()")
+    print("Commands: ")
+    print("       1. help() - Displays this help message")
+    print("Upcoming Features: ")
+    print("       1. Support for PyPI")
+    print("       2. A CAT")
