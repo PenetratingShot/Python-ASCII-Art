@@ -3,7 +3,7 @@
 ## Table of Contents
 - <a href="#about">About</a>
 - <a href="#docs">Documentation</a>
-- <a href="">Usage</a>
+- <a href="#usage">Usage</a>
 - <a href="">Resources</a>
 - <a href="">Contribs</a>
 - <a href="">License and Copyright</a>
@@ -17,7 +17,7 @@ Python ASCII art is a pip libary that you can download, compile, and run. As you
 
 ### Downloading Locally: 
 **Download the source:**
-Click <a href="">here</a> to download the zip file...
+Click <a href="https://pypi.python.org/pypi/more-ascii-art/0.1">here</a> to download the gzipped file...
 
 **Navigate to the folder and build it with pip:**
 ```bash
@@ -29,9 +29,9 @@ $ pip install -e .
 ```bash
 $ pip install more_ascii_art
 ```
-
+<a name="usage"></a>
 ## Usage
 ```python
->>> import more_ascii_art
->>> python more_ascii_art.help()
+>>> import more-ascii-art
+>>> python more-ascii-art.help()
 ```
