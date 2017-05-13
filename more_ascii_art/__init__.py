@@ -1,5 +1,7 @@
 # Importing assets
 import cat
+import chicken
+import mouse
 
 # Error handling variable
 err = print("Something went wrong. Report a bug at https://github.com/PenetratingShot/Python-ASCII-Art/issues")
@@ -21,9 +23,21 @@ def selection():
     print("Please note that selections are case sensitive...")
     print("Here are the selections you can choose from (for now): ")
     print("1. cat ")
+    print("2. chicken ")
+    print("3. mouse ")
     user_input = input("Please type in your selection: ")
     
     if (user_input == "cat"):
         return cat()
     else:
-        print err
+        print (err)
+        
+    if (user_input == "chicken"):
+        return chicken()
+    else:
+        print (err)
+        
+    if (user_input == "mouse"):
+        return mouse()
+    else:
+        print (err)
