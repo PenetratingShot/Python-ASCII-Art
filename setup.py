@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='more_ascii_art',
-      version='0.1',
+      version='1.1',
       description='Cool ASCII art with python',
       url='http://github.com/PenetratingShot/Python-ASCII-Art',
       author='Shreyas Lad and Talon Bragg',
