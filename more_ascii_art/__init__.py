@@ -9,15 +9,33 @@ err = print("Something went wrong. Report a bug at https://github.com/Penetratin
 
 # Help section
 def help():
-    print("     Welcome to more_ascii_art help!      ")
-    print("Usage: ")
+    print("     Welcome to more-ascii-art help!      ")
+    print("Usage: (local) ")
     print("       1. Build the library with >>> pip install -e .")
     print("       2. Use the python shell to >>> import more-ascii-art")
     print("       3. Type in print and then the build name and then the function you wish to execute")
     print("            Like this: >>> print more-ascii-art.help()")
+    print("Usage: (pip package) ")
+    print("       1. Install more-ascii-art with >>> pip install more-ascii-art ")
+    print("       2. Type in 'print' and then the function you wish to execute... ")
+    print("            Like this: >>> print more-ascii-art.help()
     print("Commands: ")
     print("       1. help() - Displays this help message")
     print("       2. selection() - Displays all ASCII selections and prompts you for which one you want")
+    print("            a. cat     ")
+    print("            b. chicken ")
+    print("            c. mouse ")
+    print("            d. elephant ")
+    print("       3. changelog() - Displays what has been changed in each version of more-ascii-art ")
+
+# Instructions for versioning
+def version():
+    print("There are a couple of versions of more-ascii-art. The latest one is v1.3 which includes an elephant. Use >>> pip install more-ascii-art to find out your version...")
+
+# Changelog for different versions
+def changelog():
+    print("v1.3: ")
+    print("  
 
 # User selection and processing    
 def selection():
@@ -27,8 +45,11 @@ def selection():
     print("2. chicken ")
     print("3. mouse ")
     print("4. elephant ")
+    
+    # Taking real time input from user
     user_input = input("Please type in your selection: ")
     
+    # Processing statements
     if (user_input == "cat"):
         return cat()
     else:
