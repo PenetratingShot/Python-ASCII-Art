@@ -35,7 +35,10 @@ def version():
 # Changelog for different versions
 def changelog():
     print("v1.3: ")
-    print("  
+    print("  - elephant picture")
+    print("  - updated help section ")
+    print("  - changelog() command ")
+    print("  - version() command ")
 
 # User selection and processing    
 def selection():
