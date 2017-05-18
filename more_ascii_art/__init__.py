@@ -28,17 +28,14 @@ def help():
     print("            d. elephant ")
     print("       3. changelog() - Displays what has been changed in each version of more-ascii-art ")
 
-# Instructions for versioning
-def version():
-    print("There are a couple of versions of more-ascii-art. The latest one is v1.3 which includes an elephant. Use >>> pip install more-ascii-art to find out your version...")
-
 # Changelog for different versions
 def changelog():
     print("v1.3: ")
     print("  - elephant picture")
     print("  - updated help section ")
     print("  - changelog() command ")
-    print("  - version() command ")
+    print("  - updated selection() ")
+    print("  - updated user input ")
 
 # User selection and processing    
 def selection():
