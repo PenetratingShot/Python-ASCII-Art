@@ -5,6 +5,7 @@ import mouse
 import elephant
 import dragon
 import guitar
+import duck
 
 # Error handling variable
 err = print("Something went wrong. Report a bug at https://github.com/PenetratingShot/Python-ASCII-Art/issues")
@@ -29,6 +30,8 @@ def help():
     print("            c. mouse ")
     print("            d. elephant ")
     print("            e. dragon  ")
+    print("            f. guitar ")
+    print("            g. duck ")
     print("       3. changelog() - Displays what has been changed in each version of more-ascii-art ")
 
 # Changelog for different versions
@@ -49,6 +52,8 @@ def selection():
     print("3. mouse ")
     print("4. elephant ")
     print("5. dragon ")
+    print("6. guitar ")
+    print("7. duck ")
     
     # Taking real time input from user
     user_input = input("Please type in your selection: ")
@@ -77,3 +82,11 @@ def selection():
           return dragon()
     else:
           print(err)
+    if (user_input == "guitar"):
+          return guitar()
+    else:
+          print (err)
+    if (user_input == "duck"):
+          return duck()
+    else:
+          print (err)
