@@ -4,6 +4,7 @@ import chicken
 import mouse
 import elephant
 import dragon
+import guitar
 
 # Error handling variable
 err = print("Something went wrong. Report a bug at https://github.com/PenetratingShot/Python-ASCII-Art/issues")
