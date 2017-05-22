@@ -5,3 +5,7 @@ def duck():
   print("    /.__.\    ")
   print("    \ \/ /    ")
   print(" '__/    \   ")
+  print("  \-      )   ")
+  print("   \_____/   ")
+  print("_____|_|_______   ")
+  print("    \"\"    ")
