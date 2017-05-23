@@ -6,6 +6,7 @@ import elephant
 import dragon
 import guitar
 import duck
+import ghost
 
 # Error handling variable
 err = print("Something went wrong. Report a bug at https://github.com/PenetratingShot/Python-ASCII-Art/issues")
@@ -32,6 +33,7 @@ def help():
     print("            e. dragon  ")
     print("            f. guitar ")
     print("            g. duck ")
+    print("            h. ghost ")
     print("       3. changelog() - Displays what has been changed in each version of more-ascii-art ")
 
 # Changelog for different versions
@@ -88,5 +90,9 @@ def selection():
           print (err)
     if (user_input == "duck"):
           return duck()
+    else:
+          print (err)
+    if (user_input == "ghost"):
+          return ghost()
     else:
           print (err)
